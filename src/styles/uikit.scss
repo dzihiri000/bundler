@@ -1,0 +1,19 @@
+@import "./utils/";
+@import "./components/";
+@import "./layouts/";
+
+.divider {
+    height: 50px;
+  }
+  
+  .container {
+    max-width: 1117px;
+    margin: auto;
+  }
+  
+  .ui__title {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+  }

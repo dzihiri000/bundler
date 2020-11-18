@@ -1,0 +1,33 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "Bundle any project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "kit": "parcel src/uikit.html --open",
+    "build:uikit": "rm -rf build/uikit && parcel src/uikit.html --out-dir build/uikit",
+    "build": "rm -rf build/www && parcel build src/index.html --out-dir build/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzihiri000/bundler.git"
+  },
+  "keywords": [],
+  "author": "Yana Pankrateva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzihiri000/bundler/issues"
+  },
+  "homepage": "https://github.com/dzihiri000/bundler#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^2.0.0",
+    "sass": "^1.29.0"
+  },
+  "browserslist": [
+    "last 5 version",
+    "ie 10"
+  ]
+}
